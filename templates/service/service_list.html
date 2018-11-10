@@ -1,0 +1,5 @@
+<h1>Service list</h1>
+{% for service in service %}
+	<h3>{{service.name}}</h3>
+{% endfor %}
+<a href="{% url 'service_add' %}">Add Service</a>
